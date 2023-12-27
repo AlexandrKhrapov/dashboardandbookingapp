@@ -1,0 +1,6 @@
+dash
+pandas
+gunicorn
+dash_bootstrap_components
+plotly.express
+geopy.geocoders
