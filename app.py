@@ -1,6 +1,7 @@
 from dash import Dash, html, dcc
 import dash
 import dash_bootstrap_components as dbc
+import os
 
 app = Dash(__name__, pages_folder='pages', use_pages=True, external_stylesheets=[dbc.themes.LUX])
 
