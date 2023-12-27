@@ -1,5 +1,4 @@
-FROM python:3.11-slim
-ENV PYTHONBUFFERED True
+FROM python:3.13
 ENV APP_HOME /app
 WORKDIR $APP_HOME
 COPY pages ./
