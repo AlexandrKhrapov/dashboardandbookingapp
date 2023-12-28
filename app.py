@@ -2,15 +2,10 @@ from dash import Dash, html, dcc
 import dash
 import os
 
-app = Dash(__name__, pages_folder='pages', use_pages=True)
+app = Dash(__name__)
 
 app.layout = html.Div([
-    html.Br(),
-    html.Div(children=[
-        dcc.Link(page['name'], href=page['relative_path'])
-        for page in dash.page_registry.values()
-    ]),
-    dash.page_container
+    html.H3("IM DEAD")
 ])
 
 if __name__ == '__main__':
