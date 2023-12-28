@@ -3,3 +3,4 @@ Dockerfile
 *.pyo
 *.pyd
 __pycache__
+README.md
