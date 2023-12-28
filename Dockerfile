@@ -1,4 +1,4 @@
-FROM python:3.8.0-slim
+FROM python:3.11-slim
 
 # Copy local code to the container image
 COPY . /app
